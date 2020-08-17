@@ -1,0 +1,101 @@
+body {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #f7f7f7;
+  }
+  
+  div.container {
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
+  
+  nav.menu {
+    width: 98%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  a {
+    padding: 4px 6px;
+  }
+  
+  nav.menu ul {
+    display: flex;
+  }
+  
+  nav.menu ul > li:last-child {
+    margin-left: auto;
+  }
+  
+  header {
+    grid-column: 1/4;
+  }
+  
+  main {
+    clear: left;
+    grid-column: 1/3;
+    float: left;
+    min-width: 74%;
+    max-width: 1200px;
+  }
+  
+  aside {
+    grid-column: 3/4;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+    min-width: 15%;
+  }
+  
+  footer {
+    clear: left;
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  figure {
+    margin: 0px;
+    color: white;
+    background-color: black;
+    min-width: 100%;
+    height: 180px;
+    background-image: url(https://www.sitepoint.com/wp-content/themes/sitepoint/assets/images/sitepoint_about.jpg)
+  }
+  
+  .card {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    main, aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
+  
+  Resources
